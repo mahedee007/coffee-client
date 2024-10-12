@@ -3,6 +3,8 @@ import { Helmet } from 'react-helmet-async';
 import Navbar from './Navbar';
 import Header from './Header';
 import Features from './Features';
+import AddCoffee from './AddCoffee';
+import Section from './Section';
 
 const Home = () => {
     return (
@@ -13,6 +15,8 @@ const Home = () => {
             <Navbar/>
             <Header/>
             <Features/>
+            <Section/>
+            
         </div>
     );
 };

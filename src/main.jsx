@@ -10,6 +10,7 @@ import Root from './Root/Root.jsx';
 import Home from './components/Home.jsx';
 import { HelmetProvider } from 'react-helmet-async';
 import Error from './components/Error.jsx';
+import AddCoffee from './components/AddCoffee.jsx';
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
         element: <Home/>,
         
       },
+      {
+        path:"/addcoffee",
+        element: <AddCoffee/>,
+      }
     ]
   },
 ]);
